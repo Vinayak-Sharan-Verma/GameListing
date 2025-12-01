@@ -19,7 +19,7 @@ function Header() {
     return (
         <div className='flex items-center p-3'>
             <img src={GokuBlue} width={100} height={100} alt="Goku" />
-            <div className='flex bg-slate-200 bg-black p-2 
+            <div className='flex bg-slate-200 p-2 
             w-full items-center mx-5 rounded-full'>
                 <HiOutlineMagnifyingGlass />
                 <input type="text" placeholder='Search Games' 
