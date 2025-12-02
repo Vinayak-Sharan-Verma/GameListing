@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useContext } from 'react';
-import GokuBlue from './../assets/Images/GokuBlue.jpg';
+import GokuBlue from '../GameSearch.jpg';
 import { HiMoon, HiOutlineMagnifyingGlass, HiSun } from "react-icons/hi2";
 import { ThemeContext } from '../Context/ThemeContext';
 
@@ -18,7 +18,7 @@ function Header() {
 
     return (
         <div className='flex items-center p-3'>
-            <img src={GokuBlue} width={100} height={100} alt="Goku" />
+            <img src={GokuBlue} width={60} height={100} className='border-2 border-pink-300 rounded-md' alt="Goku" />
             <div className='flex bg-slate-200 p-2 
             w-full items-center mx-5 rounded-full'>
                 <HiOutlineMagnifyingGlass />
